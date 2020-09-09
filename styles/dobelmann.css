@@ -1,7 +1,17 @@
 * {
-    color: purple;
+    color: #B0B000;
+    background-color: #444444;
 }
 
 .img-circle {
     border-radius: 50%;
+}
+
+table {
+    width: 250px;
+}
+
+table, tr, td {
+    border: 2px solid #000099;
+    color: #77BB00;
 }
