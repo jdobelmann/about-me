@@ -16,10 +16,22 @@ table, tr, td {
     color: #77BB00;
 }
 
-aside {
+.aside {
     float: right;
+    width: 20%;
+    color: #CCCCCC
 }
 
-article {
-    clear: both;
+.article {
+    float: left;
+    margin-right: 0px;
+}
+
+p {
+    color: inherit;
+}
+
+a {
+    color: #AAFF00;
+    margin-right: 6px;
 }
