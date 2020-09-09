@@ -15,3 +15,11 @@ table, tr, td {
     border: 2px solid #000099;
     color: #77BB00;
 }
+
+aside {
+    float: right;
+}
+
+article {
+    clear: both;
+}
