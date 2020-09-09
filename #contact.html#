@@ -28,7 +28,15 @@
     <link href="styles/dobelmann.css" rel="stylesheet" />
   </head>
   <body>
-
-
+    <nav>
+      <a href="https://github.com/jdobelmann"><img src="images/me.jpg" class="img-circle" alt="Yours Truly" width="50" height="50"/></a>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="calc.html">Calculator</a>
+    </nav>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
+    <form class="
   </body>
 </html>

@@ -17,11 +17,13 @@ table, tr, td {
 }
 
 .aside {
-    float: right;
     width: 20%;
     color: #CCCCCC
 }
-
+.row {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
 .article {
     float: left;
     margin-right: 0px;
@@ -34,9 +36,4 @@ p {
 a {
     color: #AAFF00;
     margin-right: 6px;
-}
-
-br {
-    color: #B0B000;
-    background-color: #444444;
 }
