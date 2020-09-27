@@ -26,3 +26,15 @@ For advanced users, you may also consider:
 ## Contributors
 Joseph Dobelmann: Bachelor of Applied Science in Information Technology
 ![Skeleton eating Cheez-Its](https://bestanimations.com/Humans/Skeletons/skeleton-animated-gif-15.gif)
+
+
+## Resources Used
+- https://www.w3schools.com/js/default.asp
+
+- https://hackersandslackers.com/making-ajax-calls-with-jquery/
+
+- https://stackoverflow.com/questions/3794919/replace-all-spaces-in-a-string-with
+
+- https://www.omdbapi.com/
+
+- https://www.w3schools.com/js/js_ajax_intro.asp
