@@ -27,10 +27,12 @@
     <!-- End of Material Design -->
     <link href="styles/dobelmann.css" rel="stylesheet" />
     <script src="scripts/calc.js"></script>
+    <script src="scripts/movie.js"></script>
   </head>
   <body>
     <nav>
       <a href="https://github.com/jdobelmann"><img src="images/me.jpg" id="img-circle" class="img-circle" alt="Yours Truly" width="50" height="50"/></a>
+      Joseph Dobelmann
       <a href="index.html">Home</a>
       <a href="contact.html">Contact</a>
       <a href="calc.html">Calculator</a>
@@ -45,15 +47,22 @@
       <input type="number" id="num2" name="num2"/><br/>
       <label>Operation: </label>
       <button type="button" class="btn" onclick="add()">+</button>
-      <button type="button" class="btn"onclick="sub()">-</button>
-      <button type="button" class="btn"onclick="mult()">*</button>
-      <button type="button" class="btn"onclick="div()">/</button>
+      <button type="button" class="btn" onclick="sub()">-</button>
+      <button type="button" class="btn" onclick="mult()">*</button>
+      <button type="button" class="btn" onclick="div()">/</button>
       <h3 id="answer"></h3>
       <script>
 	// Set textbox values from localStorage
 	setValues();
       </script>
     </form>
+
+    <form>
+      <label for="title">Title of Movie: </label>
+      <input type="text" id="title" name="title"/><br/>
+      <button type="button" class="btn" onclick="getMovie()">Get Movie Information</button><br/>
+    </form>
+
     <footer>Wear your mask</footer>
   </body>
 </html>
