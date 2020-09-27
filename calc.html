@@ -26,6 +26,7 @@
       ></script>
     <!-- End of Material Design -->
     <link href="styles/dobelmann.css" rel="stylesheet" />
+    <script src="scripts/calc.js"></script>
   </head>
   <body>
     <nav>
@@ -43,10 +44,11 @@
       <label for="num2">Second Number: </label>
       <input type="number" id="num2" name="num2"/><br/>
       <label>Operation: </label>
-      <button class="btn">+</button>
-      <button class="btn">-</button>
-      <button class="btn">*</button>
-      <button class="btn">/</button>
+      <button type="button" class="btn" onclick="add()">+</button>
+      <button type="button" class="btn"onclick="sub()">-</button>
+      <button type="button" class="btn"onclick="mult()">*</button>
+      <button type="button" class="btn"onclick="div()">/</button>
+      <h3 id="answer"></h3>
     </form>
     <footer>Wear your mask</footer>
   </body>
